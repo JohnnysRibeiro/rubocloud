@@ -3,9 +3,9 @@
 require 'pathname'
 require 'yaml'
 
-require_relative 'my_extension/inject'
-require_relative 'my_extension/version'
-require_relative 'rubocop/cop/my_extension/example'
+require_relative 'rubocloud/inject'
+require_relative 'rubocloud/version'
+require_relative 'rubocop/cop/rubocloud/example'
 
 module MyExtension
   PROJECT_ROOT = ::Pathname.new(__dir__).parent.expand_path.freeze

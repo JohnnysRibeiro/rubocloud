@@ -1,15 +1,15 @@
 # frozen_string_literal: true
 
-require_relative 'lib/my_extension/version'
+require_relative 'lib/rubocloud/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'my_extension'
+  spec.name = 'rubocloud'
   spec.version = MyExtension::VERSION
   spec.authors = ['dummy']
   spec.email = ['dummy@example.com']
 
   spec.summary = 'Custom extension for RuboCop.'
-  spec.homepage = 'https://github.com/dummy/my_extension'
+  spec.homepage = 'https://github.com/dummy/rubocloud'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
 
