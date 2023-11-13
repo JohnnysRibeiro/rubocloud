@@ -1,3 +1,8 @@
+Lint/DuplicateStringLiteral:
+  Description: 'TODO: Write a description of the cop.'
+  Enabled: pending
+  VersionAdded: '<<next>>'
+
 MyExtension/Example:
   Description: 'TODO: Write a description of the cop.'
   Enabled: pending

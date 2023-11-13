@@ -18,3 +18,4 @@ module MyExtension
 end
 
 MyExtension::Inject.defaults!
+require_relative 'rubocop/cop/lint/duplicate_string_literal'
